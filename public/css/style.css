@@ -1,0 +1,71 @@
+th, td {
+	padding: 5px;
+    text-align:center;
+}
+
+table.producten{
+	width: 500px;
+    border-collapse: collapse;
+}
+
+tbody.producten{
+  display:block;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+tbody{
+  border: 1px solid black;
+}
+
+thead.producten tr {
+   display:block;
+}
+
+thead tr {
+   border: 1px solid black;
+}
+
+tbody tr {
+   height:70px;
+   border-bottom: 1px solid black;
+}
+
+.vak1{
+    width: 180px;
+}
+
+.vak2{
+    width: 120px;
+}
+
+.vak3{
+    min-width: 250px;
+}
+
+button.link {
+    text-align: center;
+    -moz-user-select: text;
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+ 
+button.link:hover span {
+    text-decoration: underline;
+}
+
+.producten td a{
+	background:red; 
+	color: black; 
+	font-weight: bold;
+}
+
+.inputfield{
+    width: 120px;
+    word-wrap: break-word;
+}
